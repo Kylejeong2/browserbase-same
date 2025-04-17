@@ -1,4 +1,4 @@
-# Rebrowser + Browserbase Integration with Advanced Stealth
+# Rebrowser + Browserbase Integration
 
 To test all of the basic examples run:
 
