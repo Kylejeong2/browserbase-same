@@ -1,0 +1,38 @@
+{
+  "name": "browserbase-rebrowser-sample",
+  "version": "1.0.0",
+  "description": "Integration of rebrowser-puppeteer-core with Browserbase infrastructure",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "login-test": "ts-node src/login-verifier.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "rebrowser",
+    "browserbase",
+    "web-scraping",
+    "bot-detection",
+    "automation",
+    "stealth",
+    "captcha-bypass"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@browserbasehq/sdk": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "rebrowser-puppeteer-core": "^23.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
